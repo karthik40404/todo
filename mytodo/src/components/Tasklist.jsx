@@ -45,6 +45,7 @@ const Tasklist = () => {
             <tr key={task.id}>
               <td>{task.id}</td>
               <td>{task.title}</td>
+              <td>{task.description}</td>
               <td>
                 <button className="btn btn-warning px-3" onClick={() => editTask(task)}>
                   Edit
